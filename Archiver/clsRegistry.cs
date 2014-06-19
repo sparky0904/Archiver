@@ -31,7 +31,7 @@ namespace Archiver
             catch (Exception ex)
             {
                 errorMessage = ex.ToString();
-                MessageBox.Show(errorMessage, "Error when adding shell context menu.", MessageBoxButtons.OK);
+                MessageBox.Show(errorMessage, "An Error when adding shell context menu.", MessageBoxButtons.OK);
             }
             finally
             {
