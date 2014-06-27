@@ -32,7 +32,7 @@ namespace Archiver
 
                 //MessageBox.Show(newFileName, "New File name");
 
-                // copy the file
+                // Copy the file
                 File.Copy(fileName, newFileName);
             }
             catch (Exception ex)
