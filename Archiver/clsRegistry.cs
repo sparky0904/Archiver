@@ -17,6 +17,7 @@ namespace Archiver
         {
             string errorMessage = "No Error message";
 
+
             RegistryKey regmenu = null;
             RegistryKey regcmd = null;
             try
